@@ -1,11 +1,9 @@
 [submodule "extras"]
 	path = extras
 	url = https://github.com/AimiliosPavlidis2001/extras
-	branch = master
 [submodule "quotes"]
 	path = quotes
 	url = https://github.com/AimiliosPavlidis2001/_quotes
-	branch = master
 [submodule "figures"]
 	path = figures
 	url = https://github.com/AimiliosPavlidis2001/_gallery
