@@ -29,4 +29,5 @@ printf "Creating the tex file for the book \n"
 pandoc -s latex/*.tex -o book/book.tex
 printf "From tex to the pdf book \n"
 pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Noto Sans Regular" --variable sansfont="Noto Sans Regular" --variable monofont="Noto Sans Regular" --variable fontsize=12pt --variable version=2.0 book/book.tex  --pdf-engine=xelatex --toc -o book/book.pdf
-
+printf "From tex to the epub book \n"
+pandoc -f latex book/book.tex -o book/book.epub
